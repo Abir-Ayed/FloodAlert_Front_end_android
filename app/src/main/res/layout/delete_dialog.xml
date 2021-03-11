@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical">
+
+
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="60dp"
+            android:background="#0000"
+
+            android:inputType="textPassword"
+            android:maxLength="12"
+            android:padding="16dp"
+            android:textColor="#1173b9"
+            android:textColorHint="#1173b9"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/etat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="20dp"
+            android:background="#0000"
+
+            android:inputType="textPassword"
+            android:maxLength="12"
+            android:padding="16dp"
+            android:textColor="#1173b9"
+            android:textColorHint="#1173b9"
+            android:textSize="16dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="#1173b9" />
+
+        <TextView
+            android:id="@+id/DeleteEtat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="28dp"
+            android:background="@drawable/angle"
+            android:gravity="center"
+
+            android:padding="16dp"
+            android:text="Supprimer"
+            android:textColor="#fff"
+            android:textSize="16dp" />
+
+
+    </LinearLayout>
+</RelativeLayout>
+

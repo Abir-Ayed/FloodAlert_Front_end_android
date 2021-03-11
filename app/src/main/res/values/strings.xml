@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Flood Alert</string>
+
+    <string name="title_activity_navigation_drawer">navigationDrawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">abirayed@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_profile">Modifier Profile</string>
+    <string name="action_password">Modifier Mot de passe</string>
+
+    <string name="title_activity_navigation_citoyens">Espace Citoyens</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="update_profile">Espace Citoyen</string>
+    <string name="update_compte">Supprimer compte</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_propos">une application mobile qui permet de gérer les risques d inondation en envoyant des notifications aux utilisateurs contenant des informations sur le degré de risque</string>
+    <string name="profile">Profile</string>
+    <string name="observation">Observation</string>
+    <string name="calling">Appeler protection civile</string>
+    <string name="statistique">Statistique</string>
+    <string name="modifier_profile">Modifier profile</string>
+    <string name="modifier_password">Modifier paassword</string>
+    <string name="ListConseils">Conseils</string>
+    <string name="ListNotif">Listes notifications</string>
+    <string name="propos">A propos</string>
+    <string name="etatReclamation">Etat des réclamations</string>
+    <string name="ListReclamation">Listes des réclamation</string>
+    <string name="conseils">Conseils</string>
+    <string name="updataPassword">Modifier Password</string>
+    <string name="Prevision">Prevision</string>
+    <string-array name="region_array">
+        <item>Choisir région</item>
+        <item>Qulaybiyah</item>
+        <item>Al Hammamat</item>
+        <item>korba</item>
+        <item>El Haouaria</item>
+        <item>Nabeul</item>
+        <item>Qurbus</item>
+        <item>Menzel Heurr</item>
+        <item>Bani Khallad</item>
+        <item>El Mida</item>
+    </string-array>
+</resources>

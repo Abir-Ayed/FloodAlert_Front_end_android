@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_person"
+            android:icon="@drawable/person"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_observation"
+            android:icon="@drawable/visibility"
+            android:title="Observation" />
+
+        <item
+            android:id="@+id/nav_prevision"
+            android:icon="@drawable/ic_cloudy"
+            android:title="Prevision" />
+
+        <item
+            android:id="@+id/nav_conseils"
+            android:icon="@drawable/highlight"
+            android:title="Conseils" />
+        <item
+            android:id="@+id/map"
+            android:icon="@drawable/map_place"
+            android:title="Localisation" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/reclamation"
+                android:icon="@drawable/ic_inbox"
+                android:title="Etat de réclamation" />
+            <item
+                android:id="@+id/telephoner"
+                android:icon="@drawable/call_end"
+                android:title="Demander de l'aide" />
+            <item
+                android:id="@+id/propos"
+                android:icon="@drawable/error_outline"
+                android:title="A propos" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/deconnexion"
+                android:title="Deconnexion" />
+        </menu>
+    </item>
+
+</menu>
